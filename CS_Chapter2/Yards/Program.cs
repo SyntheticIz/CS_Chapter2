@@ -9,6 +9,9 @@ namespace Yards
     {
         static void Main(string[] args)
         {
+            int length = 25, width = 42, area = length * width;
+            double costsf = 3, totalsf = area * costsf, totalsy = totalsf / 9;
+            Console.WriteLine("For a " + length + " by " + width + " room with carpet priced at $" + costsf + " per square foot it will cost $" + totalsy + " per square yard.");
         }
     }
 }
